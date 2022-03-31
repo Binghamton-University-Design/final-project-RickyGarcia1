@@ -1,0 +1,465 @@
+
+*{
+	margin: 20;
+	padding: 20;
+}
+
+html, body {
+	height: 100%;
+	line-height: 30px;
+	margin-bottom:20px;
+	font-family: itc-avant-garde-gothic-pro, sans-serif;
+	color: #E1E7E4;
+	font-size: 15px;
+}
+
+body {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: flex;
+	font-size: 1rem;
+	background: radial-gradient(ellipse at bottom, #1d2127 0%, #090a0f 100%);
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+footer {
+	text-align: center;
+	position: relative;
+	bottom:  0%;
+	width: 100%;
+}
+
+.container{
+	height: 100vh;
+	width:100%;
+	margin: 0 auto;
+	padding-left: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.navbar{
+	width:100%;
+	height:  15vh;
+	margin:auto;
+	display:flex;
+	align-items: center;
+}
+
+nav{
+	diplay: flex;
+	padding-left: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 20px;
+}
+
+nav ul a{
+	text-decoration:none;
+	color:#f8f8ff;
+	font-size: 15px;
+	font-family: itc-avant-garde-gothic-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.scattered-secrets{
+	width: 60%;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.scattered-secrets img{
+	width: 1000px;
+	height: auto;
+	image-rendering: auto;
+
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.timeline {
+	position: relative;
+	height:100%;
+	width: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #E1E7E4;
+}
+
+.galaxy h1 {
+	animation: fadeIn 4s ease-in;
+	font-size: 50px;
+	font-weight: 400;
+	font-family: itc-avant-garde-gothic-pro, sans-serif;
+	line-height: 1.35;
+	width: 100%;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	color: #E1E7E4;
+	text-shadow:
+      0 0 7px #fff;
+	text-align: center;
+}
+
+@keyframes fadeIn{
+	from {
+		color:#4bd5ee;
+		text-shadow: 0 0 7px #4bd5ee;
+
+	}
+
+	to {
+		color:#E1E7E4;
+		text-shadow:
+      	0 0 7px #fff;
+	}
+}
+
+.fade {
+position: relative;
+width: 100%;
+min-height: 60vh;
+top: -25px;
+z-index: 1;
+}
+
+.title {
+display: flex;
+justify-content: center;
+position: relative;
+height: 500px;
+color: #E1E7E4;
+font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-size: 75px;
+font-weight: 400;
+letter-spacing: 5px;
+line-height: 150%;
+perspective: 1000px;
+}
+
+.crawl {
+position: relative;
+top: 99999px;
+transform-origin: 50% 100%;
+animation: crawl 90s linear;
+}
+
+.crawl > .title {
+font-size: 90%;
+text-align: center;
+}
+
+.crawl > .title h1 {
+margin: 0 0 15px;
+text-align: center;
+}
+
+.crawl >.title p {
+	justify-content: center;
+}
+
+@keyframes crawl {
+0% {
+top: -100px;
+transform: rotateX(20deg)  translateZ(0);
+}
+100% {
+top: -6000px;
+transform: rotateX(25deg) translateZ(-2500px);
+}
+}
+
+.conspiracy h1{
+	animation: fadeIn 5s ease-in;
+	font-size: 25px;
+	font-weight: 400;
+	font-family: itc-avant-garde-gothic-pro, sans-serif;
+	line-height: 1.35;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #E1E7E4;
+	text-shadow:
+      0 0 7px #fff;
+	text-align: left
+}
+
+.proposal{
+	animation: fadeIn 5s ease-in;
+	animation: paths 8s step-end infinite;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align:left;
+	justify-content: normal;
+}
+
+@keyframes paths {
+  0% {
+    clip-path: polygon(
+      0% 43%,
+      83% 43%,
+      83% 22%,
+      23% 22%,
+      23% 24%,
+      91% 24%,
+      91% 26%,
+      18% 26%,
+      18% 83%,
+      29% 83%,
+      29% 17%,
+      41% 17%,
+      41% 39%,
+      18% 39%,
+      18% 82%,
+      54% 82%,
+      54% 88%,
+      19% 88%,
+      19% 4%,
+      39% 4%,
+      39% 14%,
+      76% 14%,
+      76% 52%,
+      23% 52%,
+      23% 35%,
+      19% 35%,
+      19% 8%,
+      36% 8%,
+      36% 31%,
+      73% 31%,
+      73% 16%,
+      1% 16%,
+      1% 56%,
+      50% 56%,
+      50% 8%
+    );
+  }
+
+  5% {
+    clip-path: polygon(
+      0% 29%,
+      44% 29%,
+      44% 83%,
+      94% 83%,
+      94% 56%,
+      11% 56%,
+      11% 64%,
+      94% 64%,
+      94% 70%,
+      88% 70%,
+      88% 32%,
+      18% 32%,
+      18% 96%,
+      10% 96%,
+      10% 62%,
+      9% 62%,
+      9% 84%,
+      68% 84%,
+      68% 50%,
+      52% 50%,
+      52% 55%,
+      35% 55%,
+      35% 87%,
+      25% 87%,
+      25% 39%,
+      15% 39%,
+      15% 88%,
+      52% 88%
+    );
+  }
+
+  30% {
+    clip-path: polygon(
+      0% 53%,
+      93% 53%,
+      93% 62%,
+      68% 62%,
+      68% 37%,
+      97% 37%,
+      97% 89%,
+      13% 89%,
+      13% 45%,
+      51% 45%,
+      51% 88%,
+      17% 88%,
+      17% 54%,
+      81% 54%,
+      81% 75%,
+      79% 75%,
+      79% 76%,
+      38% 76%,
+      38% 28%,
+      61% 28%,
+      61% 12%,
+      55% 12%,
+      55% 62%,
+      68% 62%,
+      68% 51%,
+      0% 51%,
+      0% 92%,
+      63% 92%,
+      63% 4%,
+      65% 4%
+    );
+  }
+
+  45% {
+    clip-path: polygon(
+      0% 33%,
+      2% 33%,
+      2% 69%,
+      58% 69%,
+      58% 94%,
+      55% 94%,
+      55% 25%,
+      33% 25%,
+      33% 85%,
+      16% 85%,
+      16% 19%,
+      5% 19%,
+      5% 20%,
+      79% 20%,
+      79% 96%,
+      93% 96%,
+      93% 50%,
+      5% 50%,
+      5% 74%,
+      55% 74%,
+      55% 57%,
+      96% 57%,
+      96% 59%,
+      87% 59%,
+      87% 65%,
+      82% 65%,
+      82% 39%,
+      63% 39%,
+      63% 92%,
+      4% 92%,
+      4% 36%,
+      24% 36%,
+      24% 70%,
+      1% 70%,
+      1% 43%,
+      15% 43%,
+      15% 28%,
+      23% 28%,
+      23% 71%,
+      90% 71%,
+      90% 86%,
+      97% 86%,
+      97% 1%,
+      60% 1%,
+      60% 67%,
+      71% 67%,
+      71% 91%,
+      17% 91%,
+      17% 14%,
+      39% 14%,
+      39% 30%,
+      58% 30%,
+      58% 11%,
+      52% 11%,
+      52% 83%,
+      68% 83%
+    );
+  }
+
+  76% {
+    clip-path: polygon(
+      0% 26%,
+      15% 26%,
+      15% 73%,
+      72% 73%,
+      72% 70%,
+      77% 70%,
+      77% 75%,
+      8% 75%,
+      8% 42%,
+      4% 42%,
+      4% 61%,
+      17% 61%,
+      17% 12%,
+      26% 12%,
+      26% 63%,
+      73% 63%,
+      73% 43%,
+      90% 43%,
+      90% 67%,
+      50% 67%,
+      50% 41%,
+      42% 41%,
+      42% 46%,
+      50% 46%,
+      50% 84%,
+      96% 84%,
+      96% 78%,
+      49% 78%,
+      49% 25%,
+      63% 25%,
+      63% 14%
+    );
+  }
+
+  90% {
+    clip-path: polygon(
+      0% 41%,
+      13% 41%,
+      13% 6%,
+      87% 6%,
+      87% 93%,
+      10% 93%,
+      10% 13%,
+      89% 13%,
+      89% 6%,
+      3% 6%,
+      3% 8%,
+      16% 8%,
+      16% 79%,
+      0% 79%,
+      0% 99%,
+      92% 99%,
+      92% 90%,
+      5% 90%,
+      5% 60%,
+      0% 60%,
+      0% 48%,
+      89% 48%,
+      89% 13%,
+      80% 13%,
+      80% 43%,
+      95% 43%,
+      95% 19%,
+      80% 19%,
+      80% 85%,
+      38% 85%,
+      38% 62%
+    );
+  }
+
+  1%,
+  7%,
+  33%,
+  47%,
+  78%,
+  93% {
+    clip-path: none;
+  }
+}
