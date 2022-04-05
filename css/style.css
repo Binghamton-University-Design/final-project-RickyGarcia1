@@ -73,7 +73,6 @@ nav ul a{
 }
 
 .scattered-secrets{
-	width: 60%;
 	margin-top: 150px;
 	margin-bottom: 150px;
 	margin: auto;
@@ -82,10 +81,9 @@ nav ul a{
 }
 
 .scattered-secrets img{
-	width: 1000px;
+  width: 70%;
 	height: auto;
 	image-rendering: auto;
-
 }
 
 .center{
@@ -106,17 +104,30 @@ nav ul a{
 
 .galaxy h1 {
 	animation: fadeIn 4s ease-in;
-	font-size: 50px;
-	font-weight: 400;
-	font-family: itc-avant-garde-gothic-pro, sans-serif;
-	line-height: 1.35;
-	width: 100%;
-	margin-top: 150px;
-	margin-bottom: 150px;
-	color: #E1E7E4;
-	text-shadow:
+  font-size: 50px;
+  font-weight: 400;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  line-height: 1.35;
+  width: 100%;
+  margin-top: 250px;
+  margin-bottom: 350px;
+  color: #E1E7E4;
+  text-shadow:
       0 0 7px #fff;
-	text-align: center;
+  text-align: center;
+}
+
+.mono h1 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  line-height: 1.35;
+  width: 100%;
+  margin-top: 550px;
+  margin-bottom: 550px;
+  color: #E1E7E4;
+  text-align: center;
+
 }
 
 @keyframes fadeIn{
