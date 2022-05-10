@@ -4,7 +4,7 @@
 	padding: 20;
 }
 
-html, body {
+html, body{
 	height: 100%;
 	line-height: 30px;
 	margin-bottom:20px;
@@ -28,10 +28,50 @@ body {
 
 footer {
 	text-align: center;
-	position: relative;
+	position: absolute;
 	bottom:  0%;
 	width: 100%;
+  height:  2.5rem;
 }
+
+p {
+  color: #E1E7E4;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1{
+  color: #D79651;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+}
+
+h2{
+  color: #E1E7E4;
+  font-family: 'Aurebesh';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+}
+
+h3{
+  color: #E1E7E4;
+  font-family: proxima-nova,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+}
+
+
+.main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 
 .container{
 	height: 100vh;
@@ -42,30 +82,54 @@ footer {
 	position: relative;
 }
 
-.navbar{
-	width:100%;
-	height:  15vh;
-	margin:auto;
-	display:flex;
-	align-items: center;
+.sidebar{
+	height: 100vh;
+  display: flex;
+}
+
+.side-nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.nav-links {
+  list-style: none;
+  position: relative;
+}
+
+.nav-links li {
+  padding:  10px 0;
+}
+
+.nav-links li a{
+ text-decoration: none;
+ padding:  10px 14px;
+}
+
+
+#wrapper {
+  margin: 0 auto;
+  max-width: 960px;
 }
 
 nav{
-	diplay: flex;
+	display: flex;
 	padding-left: 2% 6%;
 	justify-content: space-between;
 	align-items: center;
 }
 
 nav ul li{
-	display: inline-block;
+	display: block;
 	list-style: none;
 	margin: 0px 20px;
 }
 
 nav ul a{
 	text-decoration:none;
-	color:#f8f8ff;
+	color:#7B8595;
 	font-size: 15px;
 	font-family: itc-avant-garde-gothic-pro, sans-serif;
 	font-weight: 300;
@@ -77,13 +141,36 @@ nav ul a{
 	margin-bottom: 150px;
 	margin: auto;
 	text-align: center;
-	padding-top: 100px;
+  float: right;
+  width: 100%;
 }
 
 .scattered-secrets img{
-  width: 70%;
-	height: auto;
+	width: 100%;
+  height: auto;
 	image-rendering: auto;
+}
+
+.logo-holder p {
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #95C4A0;
+}
+
+.column {
+  flex: 30%;
+  padding: 5px;
+}
+
+.row{
+  display: flex;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .center{
@@ -128,6 +215,18 @@ nav ul a{
   color: #E1E7E4;
   text-align: center;
 
+}
+
+.data h1{
+  font-size: 30px;
+  font-weight: 500;
+  font-family: proxima-nova, sans-serif;
+  line-height: 1.35;
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  color: #95C4A0;
+  text-align: center;
 }
 
 @keyframes fadeIn{
