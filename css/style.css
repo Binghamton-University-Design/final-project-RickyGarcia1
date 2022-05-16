@@ -4,6 +4,15 @@
 	padding: 20;
 }
 
+@font-face {
+    font-family: 'aurebeshregular';
+    src: url('aurebesh_bold-webfont.woff2') format('woff2'),
+         url('aurebesh_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body{
 	height: 100%;
 	line-height: 30px;
