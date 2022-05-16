@@ -65,6 +65,14 @@ h3{
   font-size: 24px;
 }
 
+h4{
+  color: #95C4A0;
+  font-family: proxima-nova,sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+
 
 .main {
   height: 100%;
@@ -106,6 +114,7 @@ h3{
 .nav-links li a{
  text-decoration: none;
  padding:  10px 14px;
+ font-size: 24px;
 }
 
 
@@ -151,12 +160,39 @@ nav ul a{
 	image-rendering: auto;
 }
 
-.logo-holder p {
-  font-size: 2em;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #95C4A0;
+.logo-holder{
+  height: 100vh;
+  display: flex;
 }
+
+.story{
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.story img{
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.story h4{
+  text-align: center;
+  font-size: 36px;
+  line-height: 1px;
+}
+
+.story h5{
+  color: #E1E7E4;
+  font-family: 'Aurebesh';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1px;
+}
+
 
 .column {
   flex: 30%;
