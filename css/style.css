@@ -1,9 +1,3 @@
-
-*{
-	margin: 20;
-	padding: 20;
-}
-
 @font-face {
     font-family: 'aurebeshregular';
     src: url('aurebesh_bold-webfont.woff2') format('woff2'),
@@ -175,21 +169,22 @@ nav ul a{
 }
 
 .story{
-  height: 100%;
-  margin: 0;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .story img{
-  width: 100%;
+  width: 80%;
   height: auto;
-  align-items: center;
 }
 
 .story h4{
   text-align: center;
   font-size: 36px;
   line-height: 1px;
+
 }
 
 .story h5{
@@ -199,7 +194,7 @@ nav ul a{
   font-style: normal;
   font-size: 16px;
   text-align: center;
-  line-height: 1px;
+  line-height: 1;
 }
 
 
