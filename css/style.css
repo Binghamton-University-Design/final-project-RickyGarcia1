@@ -210,12 +210,17 @@ nav ul a{
 
 .row{
   display: flex;
+  justify-content: space-between;
 }
 
 .row::after{
   content: "";
   clear: both;
   display: table;
+}
+
+.course-col{
+  flex-basis: 31%;
 }
 
 .center{
