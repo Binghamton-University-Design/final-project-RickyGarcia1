@@ -44,13 +44,6 @@ p {
   font-style: normal;
 }
 
-h1{
-  color: #D79651;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 36px;
-}
 
 h2{
   color: #E1E7E4;
@@ -218,6 +211,14 @@ nav ul a{
   flex-basis: 31%;
 }
 
+.course h1{
+  color: #D79651;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+}
+
 .center{
 	display: block;
 	margin-left: auto;
@@ -237,8 +238,8 @@ nav ul a{
 .galaxy h1 {
 	animation: fadeIn 4s ease-in;
   font-size: 50px;
-  font-weight: 400;
   font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
   line-height: 1.35;
   width: 100%;
   margin-top: 250px;
@@ -251,8 +252,8 @@ nav ul a{
 
 .mono h1 {
   font-size: 30px;
-  font-weight: 400;
   font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 300;
   line-height: 1.35;
   width: 100%;
   margin-top: 550px;
