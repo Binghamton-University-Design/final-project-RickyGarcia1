@@ -35,6 +35,7 @@ footer {
 	bottom:  0%;
 	width: 100%;
   height:  2.5rem;
+  padding bottom: 2.5 rem;
 }
 
 p {
@@ -159,6 +160,7 @@ nav ul a{
 .logo-holder{
   height: 100vh;
   display: flex;
+  width: 100%;
 }
 
 .story{
@@ -218,6 +220,7 @@ nav ul a{
   font-style: normal;
   font-size: 36px;
 }
+
 
 .center{
 	display: block;
@@ -619,3 +622,18 @@ transform: rotateX(25deg) translateZ(-2500px);
     clip-path: none;
   }
 }
+
+/* Mandalorian Page */
+.DeathWatch img{
+  float: right;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
